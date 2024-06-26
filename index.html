@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<HTML lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Yas site</title>
+    <style>
+        body {
+            background-color: #F2F2F2;
+            padding: 0;
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            outline: none;
+            color: inherit;
+        }
+
+        div {
+            display: block;
+        }
+
+        .nav-container {
+            display: flex;
+        }
+
+        .nav-header {
+            position: relative;
+            top: 0;
+            z-index: 10;
+            font-size: 1.6rem;
+            height: 80px;
+            background-color: #fff;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            width: 100vw;
+            align-items: center;
+            padding-right: 50px;
+        }
+
+        .user-nav {
+            align-self: stretch;
+            margin-right: 2%;
+            color: inherit;
+        }
+
+        .user-nav,
+        .user-nav>* {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .user-nav__icon-box {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="root">
+        <div class="nav-container">
+            <header class="nav-header">
+                <a href="">Yas Site</a>
+                <nav class="user-nav">
+                    <a class="user-nav_icon-box" href="">home</a>
+                    <a class="user-nav_icon-box" href="">explore</a>
+                    <a class="user-nav_icon-box" href="">sign in</a>
+                    <a class="user-nav_icon-box" href="">submit</a>
+                    <a class="user-nav_icon-box" href="">help</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+</body>
+
+</html>
