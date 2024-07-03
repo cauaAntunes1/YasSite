@@ -40,6 +40,13 @@
             width: 100vw;
             align-items: center;
             padding-right: 50px;
+            border: solid 1px #000000;
+        }
+
+        .nav-header_title{
+            margin-left:20px;
+            font-style: italic;
+            font-size: 32px;
         }
 
         .user-nav {
@@ -52,24 +59,32 @@
         .user-nav>* {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap:0px;
         }
 
-        .user-nav__icon-box {
+        .user-nav_icon-box {
+            margin-left:-1px;
+            text-align: center;
             position: relative;
+            display: block;
+            border: solid 1px #000000;
+            height: 80px;
+            width: 110px;
+            line-height: 80px;
         }
     </style>
 </head>
 
 <body>
+    
     <div class="root">
         <div class="nav-container">
             <header class="nav-header">
-                <a href="">Yas Site</a>
+                <a class="nav-header_title" href="">Yas Site</a>
                 <nav class="user-nav">
                     <a class="user-nav_icon-box" href="">home</a>
                     <a class="user-nav_icon-box" href="">explore</a>
-                    <a class="user-nav_icon-box" href="">sign in</a>
+                    <a class="user-nav_icon-box" href="">sign-in</a>
                     <a class="user-nav_icon-box" href="">submit</a>
                     <a class="user-nav_icon-box" href="">help</a>
                 </nav>
