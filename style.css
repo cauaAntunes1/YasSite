@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Manuele';
+    src: url(fonts/Manuale.zip);
+}
+
+body {
+    background-color: #F2F2F2;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+div {
+    display: block;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-header {
+    position: relative;
+    top: 0;
+    z-index: 10;
+    font-size: 1.6rem;
+    height: 80px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    padding-right: 50px;
+    border: solid 1px #000000;
+}
+
+.nav-header_title{
+    margin-left:20px;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.user-nav {
+    align-self: stretch;
+    margin-right: 2%;
+    color: inherit;
+}
+
+.user-nav,
+.user-nav>* {
+    display: flex;
+    align-items: center;
+    gap:0px;
+}
+
+.user-nav_icon-box {
+    margin-left:-1px;
+    text-align: center;
+    position: relative;
+    display: block;
+    border: solid 1px #000000;
+    height: 80px;
+    width: 110px;
+    line-height: 80px;
+}
+
+.title-container{
+    display: block;
+    height: 250px;
+    width: 100%;
+    margin-top:-1px;
+    border: solid 1px #000000;
+}
+
+.title-section_title{
+    font-size: 80px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-family: Manuele;
+}
