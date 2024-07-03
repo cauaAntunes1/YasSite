@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'Manuele';
+    font-family: 'Manuale';
     src: url(fonts/Manuale.zip);
+}
+
+@font-face {
+    font-family: 'Abhya-Libre';
+    src: url(fonts/Abhaya_Libre.zip);
 }
 
 body {
@@ -43,6 +48,8 @@ div {
 .nav-header_title{
     margin-left:20px;
     font-style: italic;
+    font-weight: 400;
+    font-family: Manuale;
     font-size: 32px;
 }
 
@@ -62,6 +69,7 @@ div {
 .user-nav_icon-box {
     margin-left:-1px;
     text-align: center;
+    font-family: Abhya-Libre;
     position: relative;
     display: block;
     border: solid 1px #000000;
@@ -72,7 +80,7 @@ div {
 
 .title-container{
     display: block;
-    height: 250px;
+    height: 220px;
     width: 100%;
     margin-top:-1px;
     border: solid 1px #000000;
@@ -83,5 +91,5 @@ div {
     font-weight: 400;
     font-style: italic;
     text-align: center;
-    font-family: Manuele;
+    font-family: Manuale;
 }
