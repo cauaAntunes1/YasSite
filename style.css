@@ -122,15 +122,16 @@ div {
 }
 
 .game-header {
-    display: flex;
-
+    
 }
 
 .game-menu {
+    position: absolute;
     font-size: 36px;
     font-weight: bolder;
     cursor: pointer;
-    padding: 10px;
+    left: 260px;
+    z-index: 500;
 }
 
 .game-banner img {
@@ -164,8 +165,8 @@ div {
 
 .game-buttons {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: end;
     padding: 10px;
 }
 
@@ -174,8 +175,19 @@ div {
     border: 1px solid black;
     background-color: white;
     cursor: pointer;
+    width: 100px;
+    font-family: Manuale;
+    margin-top:-1px;
 }
 
 .game-buttons button:hover {
     background-color: lightgray;
+}
+
+.game-buttons_wishlist {
+    font-size: 16px;
+    height: 30px;
+}
+.game-buttons_buy {
+    font-size: 24px;
 }
