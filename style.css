@@ -171,7 +171,6 @@ div {
 }
 
 .game-buttons button {
-    padding: 10px;
     border: 1px solid black;
     background-color: white;
     cursor: pointer;
@@ -190,4 +189,5 @@ div {
 }
 .game-buttons_buy {
     font-size: 24px;
+    height:50px
 }
