@@ -84,6 +84,7 @@ div {
     width: 100vw;
     margin-top:-1px;
     border: solid 1px #000000;
+    box-sizing: border-box;
 }
 
 .title-section_title {
@@ -99,6 +100,7 @@ div {
     width: 100vw;
     height: 70px;
     border: solid 1px #000000;
+    box-sizing: border-box;
     margin-top: -1px;
     justify-content: space-between;
     align-items: center;
@@ -128,6 +130,10 @@ div {
 
 .game-header {
     
+}
+
+.shelf-topgames_content table{
+    margin: 0;
 }
 
 .game-menu {
