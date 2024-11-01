@@ -227,4 +227,9 @@ div {
     font-size: 24px;
     height:50px
 }
-
+.games_more{
+    border: black 1px solid;
+    width: 100%;
+    margin-left: -1px;
+    margin-top: -1px;
+}
