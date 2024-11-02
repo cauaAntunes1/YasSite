@@ -147,6 +147,7 @@ div {
     cursor: pointer;
     left: 260px;
     z-index: 500;
+    width: 40px;
 }
 
 .game-banner img {
@@ -223,13 +224,30 @@ div {
     font-size: 16px;
     height: 30px;
 }
+
 .game-buttons_buy {
     font-size: 24px;
     height:50px
 }
-.games_more{
+
+.games-more{
     border: black 1px solid;
     width: 100%;
     margin-left: -1px;
     margin-top: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.games-more_button{
+    border: 1px black solid;
+    font-size: 28px;
+    width: 160px;
+    height: 45px;
+    font-family:Abhya-Libre;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
