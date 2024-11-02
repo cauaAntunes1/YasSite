@@ -13,6 +13,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-y: scroll;
 }
 
 a {
@@ -263,4 +264,26 @@ div {
 .home_footer p{
     font-size: 32px;
     font-family: Abhya-Libre;
+}
+
+.help_box{
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(100vh - 83px);
+    margin-top: -1px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.help_box p{
+    font-size: 32px;
+    font-family: Abhya-Libre;
+    width: 80%;
+}
+
+.help_box h1{
+    font-size: 36px;
 }
