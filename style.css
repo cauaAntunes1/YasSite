@@ -112,7 +112,7 @@ div {
     margin-left: 20px;
 }
 
-.shelf-topgames_content tr{
+.shelf_content tr{
     display: flex;
     flex-direction: row;
 }
@@ -130,11 +130,11 @@ div {
     
 }
 
-.shelf-topgames_content table{
+.shelf_content table{
     border-spacing: 0;
 }
 
-.shelf-topgames_content td {
+.shelf_content td {
     padding: 0;
     margin-left:-1px;
     margin-top: -1px;
@@ -196,6 +196,7 @@ div {
     margin-top: 10px;
 }
 
+
 .game-content .game-tags {
     margin-top: 10px;
 }
@@ -250,4 +251,16 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.home_footer{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_footer p{
+    font-size: 32px;
+    font-family: Abhya-Libre;
 }
