@@ -287,3 +287,178 @@ div {
 .help_box h1{
     font-size: 36px;
 }
+
+.log_box{
+    border:1px solid black;
+    margin-top: -1px;
+    min-height: calc(100vh - 83px);
+    margin-left:auto;
+    margin-right: auto;
+    width: 800px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.log_box h1{
+    font-size:36px;
+    font-family: Abhya-Libre;
+    margin-bottom: 5px;
+}
+
+.credentials-input{
+    margin-top:30px;
+}
+
+.credentials-input p {
+    font-size: 26px;
+    font-family: Abhya-Libre;
+    margin-bottom: 5px;
+}
+
+.credentials-input input {
+    border: 1px solid black;
+    width: 480px;
+    height: 40px;
+    font-size: 30px;
+    font-family: Abhya-Libre;
+}
+
+.log_box a {
+    margin-top: 15px;
+}
+
+.log_box button {    
+    border: 1px solid black;
+    width: 300px;
+    height: 60px;
+    font-size: 36px;
+    font-family: Abhya-Libre;
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: 35px;
+}
+
+.log_box button:hover{
+    background-color: #e9e9e9;
+    cursor:pointer;
+}
+
+.submit_box{
+    border:1px solid black;
+    margin-top: -1px;
+    min-height: calc(100vh - 83px);
+    margin-left:auto;
+    margin-right: auto;
+    width: 1000px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit_box h1{
+    font-size:36px;
+    font-family: Abhya-Libre;
+    margin-bottom: 5px;
+}
+
+.game-input{
+    margin-top:30px;
+}
+
+.game-input p {
+    font-size: 26px;
+    font-family: Abhya-Libre;
+    margin-bottom: 5px;
+}
+
+.game-input input {
+    border: 1px solid black;
+    width: 600px;
+    height: 40px;
+    font-size: 30px;
+    font-family: Abhya-Libre;
+}
+
+.submit_box a {
+    margin-top: 15px;
+}
+
+.submit_button {    
+    border: 1px solid black;
+    width: 300px;
+    height: 60px;
+    font-size: 36px;
+    font-family: Abhya-Libre;
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: 35px;
+}
+
+.submit_box button:hover{
+    background-color: #e9e9e9;
+    cursor:pointer;
+}
+
+.submit_box textarea {
+    border: 1px solid black;
+    width: 600px;
+    font-size: 30px;
+    font-family: Abhya-Libre;
+    resize: none;
+    min-height: 400px;
+}
+
+.game-input label {
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 40px;
+    font-size: 30px;
+    font-family: Abhya-Libre;
+    cursor: pointer;
+}
+
+.download-file{
+    margin: 10px;
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    height: 270px;
+    flex-direction: column;
+}
+
+.download-file input {
+    border: 1px solid black;
+    width: 500px;
+    margin: 10px;
+    height: 40px;
+    font-size: 30px;
+    font-family: Abhya-Libre;
+}
+
+.download-file p {
+    font-size: 26px;
+    font-family: Abhya-Libre;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.download-file_button {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.download-file_button button {
+    border: 1px black solid;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:-1px
+}

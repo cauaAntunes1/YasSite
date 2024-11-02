@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="root">
+        <script src="scripts/nav.js"></script>
+
+        <div class="submit_box">
+            <h1>Submit Game</h1>
+            <div class="game-input">
+                <p>Game name</p>
+                <input placeholder="Insert game name" type="text">
+            </div>
+            <div class="game-input">
+                <p>Game Genre</p>
+                <input placeholder="Insert game genre" type="text">
+            </div>
+            <div class="game-input">
+                <p>Game Description</p>
+                <textarea name="game-desc" id="game-desc" placeholder="Insert game description"></textarea>
+            </div>
+            <div class="game-input">
+                <p>Game Banner</p>
+                <input type="file" name="bannerfile" id="bannerfile" accept="image/png, image/jpeg">
+            </div>
+            <div class="game-input">
+                <p>Game Price(USD)</p>
+                <input placeholder="Insert Game Price" min="0.00" max="9999.99" step="0.01" type="number">
+            </div>
+
+            <table id="download-files_content">
+                <tr>
+                    <td class="download-file">
+                        <div class="download-file_name">
+                            <p>File name</p>
+                            <input placeholder="Insert file name" type="text">    
+                        </div>
+                        <div class="download-file_file">
+                            <p>File</p>
+                            <input type="file" name="gamefile" id="gamefile">    
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="download-file_button">
+                <button id="download-file_add">+</button>
+                <button id="download-file_minus">-</button>
+            </div>
+
+            <button class="submit_button">Submit</button>
+            <script src="scripts/downloadFile.js"></script>
+        </div>
+    </div>
+</body>
+</html>
