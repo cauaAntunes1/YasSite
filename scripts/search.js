@@ -7,6 +7,10 @@ var genresNum = 0
 
 var gamesArea = document.getElementById("found-games")
 
+var priceOptions = document.getElementsByClassName("search-filter-price_option")
+var dateOptions = document.getElementsByClassName("search-filter-date_option")
+var saleOptions = document.getElementsByClassName("search-filter-sale_option")
+
 console.log(gamesArea)
 
 for (i = 0; i < 5; i++){
@@ -33,6 +37,27 @@ function addFilterGenre() {
         genresElements.rows[0].appendChild(newEle)
         genresNum++
     }
+}
+
+function choosePriceOption(clickedId) {
+    for (i = 0; i < priceOptions.length; i++) {
+        priceOptions[i].getElementsByClassName("option-circle_selected")[0].hidden = true
+    }
+    document.getElementById(clickedId).getElementsByClassName("option-circle_selected")[0].hidden = false
+}
+
+function chooseDateOption(clickedId) {
+    for (i = 0; i < dateOptions.length; i++) {
+        dateOptions[i].getElementsByClassName("option-circle_selected")[0].hidden = true
+    }
+    document.getElementById(clickedId).getElementsByClassName("option-circle_selected")[0].hidden = false
+}
+
+function chooseSaleOption(clickedId) {
+    for (i = 0; i < dateOptions.length; i++) {
+        saleOptions[i].getElementsByClassName("option-circle_selected")[0].hidden = true
+    }
+    document.getElementById(clickedId).getElementsByClassName("option-circle_selected")[0].hidden = false
 }
 
 genreButton.addEventListener('click', addFilterGenre)

@@ -506,6 +506,7 @@ div {
 }
 
 .search-box{
+    margin-left: -3px;
     display: flex;
     flex-direction: row;
 }
@@ -527,7 +528,7 @@ div {
 .search-filters{
     display: block;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     border: 1px solid black;
     margin-top:-1px;
 }
@@ -614,4 +615,52 @@ div {
 
 .search-filter_genre p {
     margin-left:5px;
+}
+
+.search-filter-price_option,
+.search-filter-date_option,
+.search-filter-sale_option {
+    margin-top: -10px;
+    display: flex;
+    border: 1px;
+    width: 300px;
+    align-items: center;
+}
+
+.option-circle {
+    position: relative;
+    height: 25px;
+    min-width: 25px;
+    top: -4.5px;
+    margin-right: 5px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-circle_selected {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.search-filter-price_price,
+.search-filter-date_date,
+.search-filter-sale_sale {
+    display: flex;
+}
+
+.search-filter-price_price input {
+    min-width: 20px;
+    width: 100px;
+}
+
+.search-filter-date_date input  {
+    min-width: 20px;
+    width: 140px;
+    font-size: 20px;
 }

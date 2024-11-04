@@ -31,6 +31,85 @@
 
                         </tr>
                     </table>
+                    <div class="search-filters_filter">
+                        <p>filter by price</p>
+                        <div id="search-filter-price_options">
+                            <div class="search-filter-price">
+                                <button onClick="choosePriceOption(this.id)" id="price-filter_any" class="search-filter-price_option">
+                                    <span class="option-circle">
+                                        <span class="option-circle_selected" ></span>
+                                    </span>
+                                    <p>Any Price</p>
+                                </button>
+                            </div>
+                            <div class="search-filter-price">
+                                <button onClick="choosePriceOption(this.id)" id="price-filter_free" class="search-filter-price_option">
+                                    <span class="option-circle">
+                                        <span class="option-circle_selected" hidden></span>
+                                    </span>
+                                    <p>Free</p>
+                                </button>
+                            </div>
+                            <div class="search-filter-price">
+                                <button onClick="choosePriceOption(this.id)" id="price-filter_range" class="search-filter-price_option">
+                                    <span class="option-circle">
+                                        <span class="option-circle_selected" hidden></span>
+                                    </span>
+                                    <div class="search-filter-price_price">
+                                        <input placeholder="min" min="0.00" max="9999.99" step="0.01" type="number">
+                                        <p>-</p>
+                                        <input placeholder="max" min="0.00" max="9999.99" step="0.01" type="number">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="search-filters_filter">
+                            <p>filter by date</p>
+                            <div id="search-filter-date_options">
+                                <div class="search-filter-date">
+                                    <button onClick="chooseDateOption(this.id)" id="date-filter_any" class="search-filter-date_option">
+                                        <span class="option-circle">
+                                            <span class="option-circle_selected" ></span>
+                                        </span>
+                                        <p>Any date</p>
+                                    </button>
+                                </div>
+                                <div class="search-filter-date">
+                                    <button onClick="chooseDateOption(this.id)" id="date-filter_range" class="search-filter-date_option">
+                                        <span class="option-circle">
+                                            <span class="option-circle_selected" hidden></span>
+                                        </span>
+                                        <div class="search-filter-date_date">
+                                            <input type="date">
+                                            <p>-</p>
+                                            <input type="date">
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>         
+                        </div>
+                        <div class="search-filters_filter">
+                            <p>filter by sale</p>
+                            <div id="search-filter-sale_options">
+                                <div class="search-filter-sale">
+                                    <button onClick="chooseSaleOption(this.id)" id="sale-filter_any" class="search-filter-sale_option">
+                                        <span class="option-circle">
+                                            <span class="option-circle_selected" ></span>
+                                        </span>
+                                        <p>Show games on Sale</p>
+                                    </button>
+                                </div>
+                                <div class="search-filter-sale">
+                                    <button onClick="chooseSaleOption(this.id)" id="sale-filter_only" class="search-filter-sale_option">
+                                        <span class="option-circle">
+                                            <span class="option-circle_selected" hidden ></span>
+                                        </span>
+                                        <p>Only show games on Sale</p>
+                                    </button>
+                                </div>
+                            </div>         
+                        </div>             
+                    </div>
                 </div>
             </div>
             <div class="search-games">
