@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="root">
         <script src="scripts/nav.js"></script>
@@ -18,8 +20,16 @@
             </div>
             <div class="game-input">
                 <p>Game Genre</p>
-                <input placeholder="Insert game genre" type="text">
+                <div class="game-genre">
+                    <button id="game-genre_button">+</button>
+                    <input placeholder="Insert game genre" type="text" id="game-genre_input">
+                </div>
             </div>
+            <table id="game-genres">
+                <tr>
+                    
+                </tr>
+            </table>
             <div class="game-input">
                 <p>Game Description</p>
                 <textarea name="game-desc" id="game-desc" placeholder="Insert game description"></textarea>
@@ -38,11 +48,11 @@
                     <td class="download-file">
                         <div class="download-file_name">
                             <p>File name</p>
-                            <input placeholder="Insert file name" type="text">    
+                            <input placeholder="Insert file name" type="text">
                         </div>
                         <div class="download-file_file">
                             <p>File</p>
-                            <input type="file" name="gamefile" id="gamefile">    
+                            <input type="file" name="gamefile" id="gamefile">
                         </div>
                     </td>
                 </tr>
@@ -58,4 +68,5 @@
         </div>
     </div>
 </body>
+
 </html>
