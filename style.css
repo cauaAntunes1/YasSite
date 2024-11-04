@@ -536,6 +536,20 @@ div {
     padding: 5px;
 }
 
+.search-filters_filter input {
+    border: 1px solid black;
+    height: 40px;
+    min-width: 300px;
+    font-size: 22px;
+    font-family: Abhya-Libre;
+}
+
+.search-filters_filter p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Abhya-Libre;
+}
+
 .search-filters_search input {
     width: calc(100% - 4px);
     height: 100px;
