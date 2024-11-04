@@ -532,8 +532,12 @@ div {
     margin-top:-1px;
 }
 
+.search-filters_filters {
+    padding: 5px;
+}
+
 .search-filters_search input {
-    width: 100%;
+    width: calc(100% - 4px);
     height: 100px;
     font-size: 36px;
     display: flex;
@@ -542,4 +546,58 @@ div {
     border: 1px solid black;
     margin-top: -1px;
     margin-left: -1px;
+}
+
+.search-filter-genre{
+    display: flex;
+}
+
+.search-filter-genre button {
+    border: 1px solid black;
+    width: 44px;
+    height: 44px;
+    font-size: 26px;
+    font-family: Abhya-Libre;
+}
+
+.search-filter-genre button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.search-filter-genre input {
+    border: 1px solid black;
+    width: 300px;
+    height: 40px;
+    margin-left:-1px;
+    font-size: 26px;
+    font-family: Abhya-Libre;
+}
+
+.search-filter_genre {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    height: 30px;
+    min-width: 200px;
+    padding: 0;
+    font-size: 22px;
+    font-family: Abhya-Libre;
+    margin-top: 1px;
+}
+
+.search-filter_genre button {
+    border: 1px solid black;
+    height: 32px;
+    width: 32px;
+    margin-left: -1px;
+}
+
+.search-filter_genre button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.search-filter_genre p {
+    margin-left:5px;
 }
