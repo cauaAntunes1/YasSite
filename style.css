@@ -664,3 +664,209 @@ div {
     width: 140px;
     font-size: 20px;
 }
+
+.game-page_banner img{
+    width: calc(100% - 2px);
+    margin-top: -1px;
+    height: 360px;
+    border: 1px solid black;
+}
+
+.game-page-body {
+    padding: 0;
+    display: flex;
+}
+
+.game-page-body_info {
+    padding:5px;
+    display: block;
+    width: 75%;
+    min-height: 500px;
+    height: 100%;
+}
+
+.game-page-body_price {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-top: 5px;
+    padding-right: 40px;
+    min-height: 500px;
+    height: 100%;
+}
+
+.game-page_price {
+    display: flex;
+    margin-left:auto;
+}
+
+.game-page_price h1 {
+    font-size: 46px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.game-page_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-page_buttons button {
+    border: 1px black solid;
+    width: 250px;
+    font-family: Abhya-Libre;
+    margin-left:auto;
+}
+
+.game-page_buttons button:hover,
+.game-page_report button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+.game-page_buy{
+    height: 80px;
+    font-size: 36px;
+}
+
+.game-page_wishlist {
+    margin-top: -1px;
+    height: 30px;
+    font-size: 20px;
+
+}
+
+.game-page_report {
+    margin-left:auto;
+    margin-top: auto;
+    display: flex;
+}
+
+.game-page_report button {
+    border: 1px black solid;
+    width: 100px;
+    font-family: Abhya-Libre;
+}
+
+.game-page-files_download {
+    color: blue;
+    text-decoration: underline;
+}
+
+.game-page-tags_tags {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-page-tag {
+    border: 1px solid black;
+    font-family: Abhya-Libre;
+    display: block;
+    min-width: 50px;
+    max-width: 160px;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.game-page_name {
+    font-family: Abhya-Libre;
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+.game-page_dev {
+    font-family: Abhya-Libre;
+    font-size: 18px;
+}
+
+.game-page-tags_text {
+    font-family: Abhya-Libre;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.game-page_desc {
+    font-family: Abhya-Libre;
+    font-size: 20px;
+}
+
+.game-page-files_file {
+    font-family: Abhya-Libre;
+    font-size: 24px;
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    border: 1px black solid;
+    margin-top: -1px;
+}
+
+.profile-header-icon {
+    padding: 20px;
+    width: 300px;
+}
+
+.profile-header-icon img {
+    width: 256px;
+    height: 256px;
+    border: 1px solid black;
+}
+
+.profile-header-info {
+    width: 900px;
+}
+
+.profile-header-button {
+    width: 610px;
+    padding: 30px;
+}
+
+.profile-header-button button {
+    display: flex;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    width: 200px;
+    height: 60px;
+    font-family: Abhya-Libre;
+    margin-left: auto;
+}
+
+.profile-header-button button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.profile-footer {
+    width: calc(100% - 1px);
+    height: 80px;
+    border: 1px solid black;
+    margin-top: -1px;
+    margin-left: -1px;
+    display: flex;
+
+}
+
+.profile-footer_report {
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.profile-footer_report button{
+    border: 1px solid black;
+    width: 100px;
+    height: 32px;
+    font-family: Abhya-Libre;
+    font-size: 22px;
+}
+
+.profile-footer_report button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}

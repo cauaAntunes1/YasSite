@@ -1,5 +1,5 @@
 
-var shelfs = ["shelf-topgames_games", "shelf-salegames_games","shelf-wishlistedgames_games"]
+var shelfs = ["shelf-owned_games", "shelf-wishlist_games"]
 
 for (x = 0; x < shelfs.length; x++) {
     var desiredShelf = document.getElementById(shelfs[x])
